@@ -4,9 +4,9 @@ const Github = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.github.com/users")
-      .then((res) => res.json())
-      .then(setData);
+    //fetch("https://api.github.com/users")
+    // .then((res) => res.json())
+    // .then(setData);
   }, []);
 
   if (data) {
